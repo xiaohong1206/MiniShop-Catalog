@@ -70,27 +70,17 @@ $totalInventory = inventoryValue($products);
               echo "<td>". $tong."</td>";
               echo "</tr>";
             }
-            //foreach ($products as $product){
             
-                
-                //echo "<tr>";
-                //echo "<td>".htmlspecialchars($product["sku"])."</td>";
-               // echo "<td>".htmlspecialchars($product["name"])."</td>";
-                //echo "<td>".htmlspecialchars($categoryMap[$product["category_id"]]). "</td>";
-               // echo "<td>".$product["price"]."</td>";
-                //echo "<td>".$product["qty"]."</td>";
-               // echo "<td>".lineTotal($product)."</td>";
-               // echo "<td>".stockLevel($product)."</td>";                
-                //echo "</tr>";
-            //}
             ?>
         </table>
-       
+        
         <?php
         //echo inventoryValue($products);
         $product = findProductBySku($products, "MN-02");
         echo "<b>Kiểm tra SKU MN-02:</b>";
         echo htmlspecialchars($product["name"]);
         ?>
+  
+        
     </body>
 </html>
