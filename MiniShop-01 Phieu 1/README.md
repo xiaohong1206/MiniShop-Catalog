@@ -1,4 +1,4 @@
-# MiniShop-Catalog-Huong
+# MiniShop-Catalog
 Bài tập PHP - MiniShop Catalog
 
 ## Chức năng
